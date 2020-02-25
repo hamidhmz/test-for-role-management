@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,9 @@
   "homepage": "https://github.com/hamidhmz/test-for-role-management#readme",
   "dependencies": {
     "accesscontrol": "^2.2.1",
+    "acl": "^0.4.11",
     "express": "^4.17.1",
-    "mongoose": "^5.9.2"
+    "mongoose": "^5.9.2",
+    "nodemon": "^2.0.2"
   }
 }

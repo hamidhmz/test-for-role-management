@@ -1,0 +1,26 @@
+{
+  "name": "test-for-role-management",
+  "version": "1.0.0",
+  "description": "this is just test for access management system in nodejs using libraries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamidhmz/test-for-role-management.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamidhmz/test-for-role-management/issues"
+  },
+  "homepage": "https://github.com/hamidhmz/test-for-role-management#readme",
+  "dependencies": {
+    "accesscontrol": "^2.2.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.2"
+  }
+}
